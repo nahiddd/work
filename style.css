@@ -1,0 +1,204 @@
+/*base css*/
+a{
+  text-decoration: none;
+  list-style: none;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /*display: inline-block;*/
+}
+
+/*header css stART*/
+
+/*logo css*/
+.header{
+  background-color: #f8f8f8;
+/*    position: fixed;*/
+/*    z-index: 10;*/
+}
+
+.logo{
+  font-family: 'Playball', cursive;
+}
+
+.logo a{
+  font-size: 22px;
+  line-height: 80px;
+  color: black;
+}
+
+.logo span{
+  font-size: 15px;
+}
+
+/*nave area css*/
+.nave_area {
+	margin-top: 23px;
+}
+
+.nave_area ul{
+    text-align: right;
+    list-style: none;
+}
+
+.nave_area ul li{
+  display: inline-block;
+}
+.nave_area ul li a{
+  display: block;
+  color: black;
+  list-style: none;
+  padding: 0 16px 0 13px;
+  text-decoration: none;
+}
+
+
+  .nave_area ul li.active a {
+	padding: 0 16px 0 13px;
+	background: #28A33F;
+	border-radius: 10px;
+	line-height: 27px;
+	border-bottom: 3px solid #28A33F;
+}
+
+.nave_area ul li a:hover{
+  padding: 0 16px 0 13px;
+	background: #28A33F;
+	border-radius: 2px;
+	line-height: 27px;
+	border-bottom: 3px solid #28A33F;
+
+}
+
+/*header area css end*/
+
+/*section area css start*/
+
+.section_area {
+	width: 100%;
+	height: 80vh;
+	background:linear-gradient(to right,#22b4ff,#bc6363);
+  position: relative;
+	/*text-align: center;*/
+}
+
+.text_area{
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin-top: 252px;
+  color: white;
+}
+.section_area h1{
+  font-family: 'Playball', cursive;
+}
+.section_area h3{
+  font-family: 'Playball', cursive;
+}
+
+/*button area css*/
+
+.button_area ul li {
+	display: inline-block;
+}
+
+.button_area ul li a {
+	display:block;
+  color: white;
+  text-decoration: none;
+}
+.button1 {
+	border: 2px solid white;
+  padding: 2px 20px;
+
+}
+.button1:hover{
+  background: blue;
+}
+.button2 {
+	border: 2px solid white;
+	padding: 2px 20px;
+}
+.button2:hover{
+  background: blue;
+}
+
+/*start title area css*/
+.title_area {
+	margin-top: 58px;
+  text-align: center;
+	/*font-family: 'Playball', cursive;*/
+
+}
+
+/*end title  area css*/
+
+
+/*start about area css*/
+.about_area {
+	letter-spacing: normal;
+	width: 100%;
+	font-size: 17px;
+  text-align: -moz-left;
+}
+
+.my_sign {
+	font-size: 38px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.about_area ul li{
+  display: inline-block;
+  text-decoration: none;
+}
+
+.about_area ul li a{
+  text-decoration: none;
+}
+
+
+/*start sevice section*/
+
+.service_section{
+  text-align: center;
+  margin-top: 34px;
+}
+
+
+/*service box css strt*/
+.single_service_box {
+	background: #f8f8f8;
+	text-align: center;
+	margin-top: 50px;
+  padding-bottom: 14px;margin-bottom: 33px;
+  transition: all 1s;
+}
+
+.single_service_box:hover{
+ box-shadow: 1px 0px 11px 2px grey;
+}
+
+.single_service_box i.fa{
+  color: black;
+  font-size: 60px;
+  margin-top: 45px;
+}
+
+.single_service_box h3{
+  color: #7f8c8c;
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.single_service_box p {
+	font-size: 13px;
+	line-height: 20.8px;
+	margin-top: 22px;
+	padding: 0px 5px;
+}
+/*service box css end*/
